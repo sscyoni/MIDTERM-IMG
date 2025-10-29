@@ -30,7 +30,10 @@ def next_image():
 btn = tk.Button(root, text="다음 이미지", command=next_image)
 btn.pack()
 
+
+#키 눌러서 바꿀려면 root.bind("<Right>", next_image) 코드 사용
 # 처음 이미지 표시
 draw_image()
 
 root.mainloop()
+
